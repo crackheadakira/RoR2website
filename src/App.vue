@@ -14,9 +14,10 @@ import card from "./components/card.vue";
 body {
   margin: 0;
   padding: 0;
-  color: black;
+  color: rgb(240, 240, 240);
   font-family: "Lato", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(19, 19, 19);
 }
 </style>

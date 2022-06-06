@@ -3,14 +3,8 @@
     <img
       src="https://www.riskofrain.com/wp-content/uploads/2019/04/RoR-logo_outlined.png"
       id="logo"
-      width="175px"
     />
-    <div id="URLs">
-      <a href="#">Home</a>
-      <a href="#">Items</a>
-      <a href="#">About</a>
-      <input id="searchBar" type="text" placeholder="Search.." />
-    </div>
+    <input id="searchBar" type="text" placeholder="Search.." />
   </div>
 </template>
 
@@ -32,27 +26,24 @@ a:hover {
   border-radius: 0.3rem;
   padding-left: 0.5rem;
   border: none;
+  margin-right: 4rem;
+}
+
+#logo {
+  height: 75%;
+  margin-left: 4rem;
 }
 
 #header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(25, 89, 133);
+  background-color: rgb(19, 19, 19);
   width: 100%;
   height: 100px;
   font-weight: 700;
-  letter-spacing: 0.1rem;
-  font-size: 1.3rem;
-  box-shadow: rgb(25, 89, 133) 0px 0px 0.5rem;
+  box-shadow: rgb(34, 34, 34) 0px 0px 1rem;
   transition: 250ms ease;
   margin-bottom: 1rem;
-}
-
-#URLs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
 }
 </style>

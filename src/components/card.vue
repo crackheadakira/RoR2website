@@ -77,7 +77,7 @@ h6 {
 #card {
   width: 15rem;
   height: 458px;
-  border: 0.15rem solid black;
+  border: 0.15rem solid rgb(207, 207, 207);
   border-radius: 0.4rem;
   padding: 1rem;
 }
